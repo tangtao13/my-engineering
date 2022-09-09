@@ -20,6 +20,6 @@
     "moduleResolution": "Node",
   },
   "include": [
-    "src"
+    "src/*"
   ]
 }
