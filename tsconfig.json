@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "rootDir": "src",
+    "rootDir": ".",
     "target": "ESNEXT",
     "module": "ESNext",
     "lib": [
@@ -20,6 +20,7 @@
     "moduleResolution": "Node",
   },
   "include": [
-    "src/*"
+    "src/*",
+    "__tests__/*"
   ]
 }
